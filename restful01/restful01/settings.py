@@ -39,8 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django REST framework
     'rest_framework',
-    # Toys application
-    'toys.apps.ToysConfig',
+    # Drones application
+    'drones.apps.DronesConfig',
 ]
 
 MIDDLEWARE = [
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'restful01.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'toys',
+        'NAME': 'drones',
         'USER': 'postgres',
         'PASSWORD': '12341234',
         'HOST': 'localhost',
